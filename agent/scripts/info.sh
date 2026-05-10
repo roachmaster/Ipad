@@ -10,6 +10,7 @@ echo "MEMORY:"
 free -h
 echo
 echo "TOOLS:"
+. "$HOME/.cargo/env" 2>/dev/null || true
 git --version
 python3 --version
 rustc --version
